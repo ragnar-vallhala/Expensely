@@ -1,0 +1,61 @@
+
+
+.my-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    background-color: #f0f0f017;
+    color: rgb(32, 23, 23);
+    border-radius: 4px;
+    margin: 5px;
+    cursor:progress;
+    transition: background-color 0.3s;
+  }
+  
+  .my-button:hover {
+    background-color: #4a80ebc6;
+  }
+  
+  .my-button .button-icon {
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .home-button .button-icon {
+    background: url('../assets/home.svg') no-repeat center center;
+    background-size: contain;
+
+  }
+  
+  .goals-button .button-icon {
+    background: url('../assets/goals.svg') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .category-button .button-icon {
+    background: url('../assets/category.svg') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .transactions-button .button-icon {
+    background: url('../assets/transactions.svg') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .profile-button .button-icon {
+    background: url('../assets/profile.svg') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .more-button .button-icon {
+    
+    background: url('../assets/more.svg') no-repeat center center;
+    background-size: contain;
+  }
+  
